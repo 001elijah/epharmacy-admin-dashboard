@@ -1,0 +1,83 @@
+@import "./assets/styles/reset";
+@import "./assets/styles/vars";
+@import "./assets/styles/mixins";
+
+@font-face {
+  font-family: "Inter-Medium";
+  src:
+    local("Inter-Medium"),
+    url("./assets/fonts/Inter-Medium.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Inter-Regular";
+  src:
+    local("Inter-Regular"),
+    url("./assets/fonts/Inter-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Inter-SemiBold";
+  src:
+    local("Inter-SemiBold"),
+    url("./assets/fonts/Inter-SemiBold.ttf") format("truetype");
+}
+
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: 500;
+  color: $black-text-color;
+
+  & .no-scroll {
+    overflow: hidden;
+  }
+}
+
+.headerContainer {
+  width: 100%;
+  padding: 0 20px;
+  margin: 0 auto;
+
+  @include mobile {
+    width: 375px;
+  }
+
+  @include tablet {
+    width: 768px;
+    padding: 0 32px;
+  }
+
+  @include desktop {
+    min-width: 1280px;
+    max-width: 1440px;
+    padding: 0 48px;
+  }
+}
+
+.sectionContainer {
+  width: 100%;
+  padding: 0 20px;
+  margin: 0 auto;
+
+  @include mobile {
+    width: 375px;
+  }
+
+  @include tablet {
+    width: 768px;
+    padding: 0 32px;
+  }
+
+  @include desktop {
+    min-width: 1280px;
+    max-width: 1440px;
+    padding: 0 48px;
+  }
+
+  @include desktopLarge {
+    min-width: 1312px;
+    max-width: 1440px;
+    padding: 0 0px;
+  }
+}
