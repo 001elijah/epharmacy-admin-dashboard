@@ -1,16 +1,20 @@
 {
   "files": {
-    "main.css": "/epharmacy-admin-dashboard/static/css/main.3a37c360.css",
-    "main.js": "/epharmacy-admin-dashboard/static/js/main.24c0cf92.js",
+    "main.css": "/epharmacy-admin-dashboard/static/css/main.ebd5268e.css",
+    "main.js": "/epharmacy-admin-dashboard/static/js/main.3724fe9b.js",
     "static/media/Inter-SemiBold.ttf": "/epharmacy-admin-dashboard/static/media/Inter-SemiBold.6058d3da655fb35169c2.ttf",
     "static/media/Inter-Medium.ttf": "/epharmacy-admin-dashboard/static/media/Inter-Medium.3f7acfe50aad7ad68548.ttf",
     "static/media/Inter-Regular.ttf": "/epharmacy-admin-dashboard/static/media/Inter-Regular.9ca9ba81e9dcaa12b3a1.ttf",
+    "static/media/pill.png": "/epharmacy-admin-dashboard/static/media/pill.5d563569698becf6b250.png",
+    "static/media/elements-tablet.png": "/epharmacy-admin-dashboard/static/media/elements-tablet.5053f4ab59eab7345a7f.png",
+    "static/media/eye-off.svg": "/epharmacy-admin-dashboard/static/media/eye-off.8866ee17a8445084c2644f76756a4fc7.svg",
     "index.html": "/epharmacy-admin-dashboard/index.html",
-    "main.3a37c360.css.map": "/epharmacy-admin-dashboard/static/css/main.3a37c360.css.map",
-    "main.24c0cf92.js.map": "/epharmacy-admin-dashboard/static/js/main.24c0cf92.js.map"
+    "static/media/eye-on.svg": "/epharmacy-admin-dashboard/static/media/eye-on.53efd1b8428705d6218db6cb58179a7e.svg",
+    "main.ebd5268e.css.map": "/epharmacy-admin-dashboard/static/css/main.ebd5268e.css.map",
+    "main.3724fe9b.js.map": "/epharmacy-admin-dashboard/static/js/main.3724fe9b.js.map"
   },
   "entrypoints": [
-    "static/css/main.3a37c360.css",
-    "static/js/main.24c0cf92.js"
+    "static/css/main.ebd5268e.css",
+    "static/js/main.3724fe9b.js"
   ]
 }
