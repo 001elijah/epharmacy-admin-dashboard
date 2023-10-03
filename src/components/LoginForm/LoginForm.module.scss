@@ -1,0 +1,212 @@
+@import "../../assets/styles/mixins";
+@import "../../assets/styles/vars";
+
+.desktopWrapper {
+    @include desktop {
+        display: flex;
+        gap: 150px;
+    }
+}
+
+.logoWrapper {
+    margin-top: 24px;
+    margin-bottom: 100px;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+
+    & img {
+        height: 44px;
+    }
+
+    & p {
+        color: $black-text-color;
+        font-family: "Inter-Regular";
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        letter-spacing: -0.6px;
+    }
+}
+
+.formWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    @include tablet {
+        width: 323px;
+    }
+}
+
+.title {
+    position: relative;
+    color: #1D1E21;
+    font-family: "Inter-Regular";
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.2;
+
+    & img {
+        width: 95px;
+        height: 95px;
+        display: inline-block;
+        position: absolute;
+        top: -60px;
+        right: 17px;
+
+        @include tablet {
+            width: 175px;
+            height: 175px;
+            top: -101px;
+            right: 0;
+        }
+    }
+
+    & .highlighter {
+        color: #59B17A;
+    }
+
+    @include tablet {
+        width: 618px;
+        font-family: "Inter-SemiBold", sans-serif;
+        font-size: 54px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 60px;
+    }
+}
+
+.error {
+    position: absolute;
+    bottom: 3px;
+    left: 19px;
+
+    font-family: "Inter-Regular";
+    font-size: 10px;
+    color: red;
+}
+
+.emailInputWrapper {
+    width: 100%;
+    position: relative;
+}
+
+.emailInput {
+    width: 100%;
+    height: 44px;
+    margin-top: 40px;
+    padding: 16px 18px 16px 18px;
+
+    border-radius: 60px;
+    border: 1px solid rgba(29, 30, 33, 0.10);
+    background: #FFF;
+
+    color: $black-text-color;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: "Inter-Regular";
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.5;
+
+    &::placeholder {
+        color: rgba(29, 30, 33, 0.40);
+        opacity: 1;
+    }
+}
+
+.passwordInputWrapper {
+    width: 100%;
+    position: relative;
+}
+
+.passwordInput {
+    width: 100%;
+    height: 44px;
+    margin-top: 20px;
+    padding: 16px 54px 16px 18px;
+
+    border-radius: 60px;
+    border: 1px solid rgba(29, 30, 33, 0.10);
+    background: #FFF;
+
+    color: $black-text-color;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: "Inter-Regular";
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.5;
+
+    &::placeholder {
+        color: rgba(29, 30, 33, 0.40);
+        opacity: 1;
+    }
+}
+
+.passwordShownButton {
+    width: 40px;
+    height: 40px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: absolute;
+    top: 22px;
+    right: 2px;
+
+    background: none;
+    border: none;
+    border-radius: 60px;
+
+    &:hover {
+        background-color: $accent-color;
+    }
+
+    cursor: pointer;
+}
+
+.submitButton {
+    width: 100%;
+    margin-top: 40px;
+    padding: 13px 0px;
+
+    border: 0px;
+    border-radius: 60px;
+    background: $accent-color;
+
+    color: $white-text-color;
+    font-family: "Inter-Regular", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.3;
+
+    &:hover {
+        background-color: $accent-hover-color;
+    }
+
+    cursor: pointer;
+}
+
+.decoration {
+    width: 300px;
+    height: 100px;
+    margin-top: 88px;
+    position: absolute;
+    right: 0;
+    display: inline-block;
+    background-image: url("../../assets/images/elements.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+
+    @include tablet {
+        width: 260px;
+        height: 260px;
+        margin-top: 13px;
+        background-image: url("../../assets/images/elements-tablet.png");
+    }
+}

@@ -4,7 +4,7 @@ import AllOrdersPage from "./pages/AllOrdersPage";
 import AllProductsPage from "./pages/AllProductsPage";
 import CustomersDataPage from "./pages/CustomersDataPage";
 import AllSuppliersPage from "./pages/AllSuppliersPage";
-import SharedLayout from "./components/SharedLayout";
+import SharedLayout from "./components/SharedLayout/SharedLayout";
 import DashboardPage from "./pages/DashboardPage";
 
 function App() {
