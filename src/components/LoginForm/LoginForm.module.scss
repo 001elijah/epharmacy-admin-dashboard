@@ -28,6 +28,10 @@
         line-height: normal;
         letter-spacing: -0.6px;
     }
+
+    @include desktop {
+        margin-bottom: 226px;
+    }
 }
 
 .formWrapper {
