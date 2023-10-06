@@ -1,0 +1,67 @@
+@import "../../assets/styles/mixins";
+@import "../../assets/styles/vars";
+
+.headlineFlexWrapper {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+
+  @include tablet {
+    gap: 32px;
+  }
+
+  @include desktop {
+    gap: 60px;
+  }
+}
+
+.infoFlexWrapper {
+  display: flex;
+}
+
+.adminPanelLogo {
+  width: 32px;
+  height: 32px;
+
+  @include tablet {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+.title {
+  color: $black-text-color;
+  font-family: "Inter-Regular";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.2;
+
+  @include tablet {
+    font-size: 24px;
+  }
+}
+
+.info {
+  color: $grey-text-color;
+  font-feature-settings:
+    "clig" off,
+    "liga" off;
+  font-family: "Inter-Regular";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.border {
+  &::after {
+    content: "";
+    margin: 0 8px;
+    display: inline-block;
+    width: 1px;
+    height: 12px;
+    background-color: $grey-text-color;
+    vertical-align: middle;
+  }
+}

@@ -1,0 +1,12 @@
+@import "../../assets/styles/mixins";
+@import "../../assets/styles/vars";
+
+.flexWrapper {
+  display: flex;
+}
+
+.borderRight {
+  height: calc(100vh - 81px);
+  padding-top: 33px;
+  border-right: 1px solid rgba(29, 30, 33, 0.1);
+}

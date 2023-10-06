@@ -42,10 +42,12 @@ const LoginForm = () => {
         </div>
         <div className={s.desktopWrapper}>
           <h1 className={s.title}>
-            Your medication,<br />
+            Your medication,
+            <br />
             <img src={Pill} alt="pill" />
             delivered Say goodbye to all{" "}
-            <span className={s.highlighter}>your healthcare</span> worries with us
+            <span className={s.highlighter}>your healthcare</span> worries with
+            us
           </h1>
           <form
             className={s.formWrapper}
