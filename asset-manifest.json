@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/epharmacy-admin-dashboard/static/css/main.e83df9ac.css",
+    "main.css": "/epharmacy-admin-dashboard/static/css/main.381565bd.css",
     "main.js": "/epharmacy-admin-dashboard/static/js/main.ac975bd6.js",
     "static/media/Inter-SemiBold.ttf": "/epharmacy-admin-dashboard/static/media/Inter-SemiBold.6058d3da655fb35169c2.ttf",
     "static/media/Inter-Medium.ttf": "/epharmacy-admin-dashboard/static/media/Inter-Medium.3f7acfe50aad7ad68548.ttf",
@@ -10,11 +10,11 @@
     "static/media/eye-off.svg": "/epharmacy-admin-dashboard/static/media/eye-off.8866ee17a8445084c2644f76756a4fc7.svg",
     "index.html": "/epharmacy-admin-dashboard/index.html",
     "static/media/eye-on.svg": "/epharmacy-admin-dashboard/static/media/eye-on.53efd1b8428705d6218db6cb58179a7e.svg",
-    "main.e83df9ac.css.map": "/epharmacy-admin-dashboard/static/css/main.e83df9ac.css.map",
+    "main.381565bd.css.map": "/epharmacy-admin-dashboard/static/css/main.381565bd.css.map",
     "main.ac975bd6.js.map": "/epharmacy-admin-dashboard/static/js/main.ac975bd6.js.map"
   },
   "entrypoints": [
-    "static/css/main.e83df9ac.css",
+    "static/css/main.381565bd.css",
     "static/js/main.ac975bd6.js"
   ]
 }
