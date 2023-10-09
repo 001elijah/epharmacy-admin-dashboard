@@ -71,8 +71,7 @@ body {
     padding-left: 40px;
     padding-right: 40px;
     @include desktopLarge {
-      min-width: 1440px;
-      max-width: 1440px;
-      padding: 0 20px;
+      min-width: calc(1440px - 80px);
+      max-width: calc(1440px - 80px);
     }
 }
