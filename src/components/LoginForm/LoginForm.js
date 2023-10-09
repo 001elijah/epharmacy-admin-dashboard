@@ -1,4 +1,5 @@
 import React, { useRef, useState } from "react";
+import { useNavigate } from "react-router-dom";
 import * as Yup from "yup";
 import { useFormik } from "formik";
 import Logo from "../../assets/images/siteLogo.png";
@@ -15,6 +16,7 @@ const LoginSchema = Yup.object().shape({
 });
 
 const LoginForm = () => {
+  const navigate = useNavigate();
   const [passwordShown, setPasswordShown] = useState(false);
   const nodeRef = useRef(null);
   const formik = useFormik({
@@ -26,6 +28,7 @@ const LoginForm = () => {
       // loginAPI(values);
       console.log(values);
       actions.resetForm({ values: { email: "", password: "" } });
+      navigate("/");
     },
     validationSchema: LoginSchema,
   });
