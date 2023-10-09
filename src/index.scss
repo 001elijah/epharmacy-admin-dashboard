@@ -52,12 +52,27 @@ body {
   @include desktop {
     min-width: 1280px;
     max-width: 1440px;
-    padding: 0 20px;
+    padding-left: 20px;
+    padding-right: 40px;
   }
 
   @include desktopLarge {
     min-width: 1440px;
     max-width: 1440px;
-    padding: 0 20px;
+    padding-left: 20px;
+    padding-right: 40px;
   }
+}
+
+.dashboardDesktopContainer {  
+    min-width: calc(1280px - 80px);
+    max-width: 1440px;
+    margin: 0 auto;
+    padding-left: 40px;
+    padding-right: 40px;
+    @include desktopLarge {
+      min-width: 1440px;
+      max-width: 1440px;
+      padding: 0 20px;
+    }
 }

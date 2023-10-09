@@ -205,3 +205,50 @@ export const X = (props) => (
     />
   </svg>
 );
+
+export const MoneyStack = (props) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width={20}
+    height={20}
+    fill="none"
+    {...props}
+  >
+    <g
+      stroke="#1D1E21"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth={1.5}
+      clipPath="url(#a)"
+    >
+      <path d="M12.857 10.714c3.55 0 6.429-1.279 6.429-2.857C19.286 6.28 16.408 5 12.857 5 9.307 5 6.43 6.28 6.43 7.857c0 1.578 2.878 2.857 6.428 2.857Z" />
+      <path d="M6.429 7.857v8.572c0 1.571 2.857 2.857 6.428 2.857 3.572 0 6.429-1.286 6.429-2.857V7.857" />
+      <path d="M19.286 12.143c0 1.571-2.857 2.857-6.429 2.857-3.571 0-6.428-1.286-6.428-2.857m6.285-10A9.672 9.672 0 0 0 7.143.714C3.586.714.714 2 .714 3.571c0 .843.829 1.6 2.143 2.143" />
+      <path d="M2.857 14.286c-1.314-.543-2.143-1.3-2.143-2.143V3.57" />
+      <path d="M2.857 10C1.543 9.457.714 8.7.714 7.857" />
+    </g>
+    <defs>
+      <clipPath id="a">
+        <path fill="#fff" d="M0 0h20v20H0z" />
+      </clipPath>
+    </defs>
+  </svg>
+);
+
+export const UsersOutlined = (props) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width={20}
+    height={20}
+    fill="none"
+    {...props}
+  >
+    <path
+      stroke="#1D1E21"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth={1.5}
+      d="M17.5 16.667c0-1.452-1.392-2.686-3.333-3.145M12.5 16.668c0-1.842-2.238-3.334-5-3.334s-5 1.492-5 3.334m10-5.834a3.333 3.333 0 1 0 0-6.666m-5 6.666a3.333 3.333 0 1 1 0-6.666 3.333 3.333 0 0 1 0 6.666Z"
+    />
+  </svg>
+);
