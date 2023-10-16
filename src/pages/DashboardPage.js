@@ -1,6 +1,7 @@
 import React from "react";
 import StatsList from "../components/StatsList/StatsList";
 import { useMediaQuery } from "react-responsive";
+import CustomizedTable from "../components/CustomizedTable/CustomizedTable";
 
 const DashboardPage = () => {
   const isMobileOrTablet = useMediaQuery({ query: "(max-width: 1279px)" });
@@ -11,6 +12,7 @@ const DashboardPage = () => {
       }
     >
       <StatsList />
+      <CustomizedTable />
     </div>
   );
 };
